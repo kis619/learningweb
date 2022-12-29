@@ -1,0 +1,43 @@
+body{
+	background: white(58, 58, 58);
+	color: white;
+	font-family: Helvetica Neue, Helvetica, Arial;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background: yellowgreen;
+	padding: 20px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+li{
+	display: inline-block;
+	margin-right: 10px;
+	/* background: pink; */
+}
+
+section{
+	background: lightgreen;
+	color: darkgreen;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+div{
+	background: lightpink;
+	margin: auto;
+	width: 100px;
+}
+
+footer{
+	background: yellowgreen;
+	padding: 9px 20px;
+}
