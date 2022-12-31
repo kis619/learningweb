@@ -59,9 +59,10 @@ nav li {
 
 @media screen and (max-width: 733px){
 
-	/* header{
-		height: 400;
-	} */
+	header{
+		/* height: 400; */
+		background-position: 0px 0px;
+	}
 	nav ul {
 		display: flex;
 		flex-direction: column;
