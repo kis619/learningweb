@@ -1,0 +1,17 @@
+body {
+	font-family: Helvetica neue;
+	color: green;
+}
+
+header {
+	text-align: center;
+	font-size: larger;
+}
+
+
+.calculator {
+	color: red;
+	padding-left: 25%;
+	padding-right: 25%;
+	/* background-color: gray; */
+}
