@@ -1,0 +1,24 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+#lyrics-list {
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+li input {
+	display: none;
+}
+
+li.hide input {
+	display: initial;
+}
+
+li.hide span {
+	display: none;
+}
