@@ -1,0 +1,88 @@
+html {
+	/* border: 2px solid red; */
+
+	background-color: darkcyan; 
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Courier New', Courier, monospace; */
+}
+
+body {
+	border: 2px solid rgb(0, 17, 255);
+
+	background-color: #BBE6E6;
+	margin: 0 auto; /* this centered stuff*/
+	padding: 0 20px 20px 20px;
+	width: 600px;
+}
+
+/* You may have noticed there's a horrible gap at the top of the body.
+That happens because browsers apply default styling to the <h1> element (among others).  */
+h1 {
+	color: darkcyan;
+	font-size: 60px;
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	text-shadow: 3px 3px 17px black;
+	/* display:flex; */
+	/* justify-content: center; */
+}
+
+/* The <body> is a block element, meaning it takes up space on the page.
+The margin applied to a block element will be respected by other elements on the page.
+In contrast, images are inline elements,
+for the auto margin trick to work on this image,
+we must give it block-level behavior using display: block;. */
+img {
+	width: 590px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+p ,li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+
+/* PLAYING */
+p, h1, img, ul, a {
+	border: 1px solid black;
+	/* border-width: 1px; */
+	/* border-style: solid; */
+	/* border-color: black; */
+	/* color: red; */
+	/* margin-left: 10%;
+	margin-right: 10%; */
+	/* width: 500px; */
+}
+
+
+/* #testUL {
+	border: 3px groove purple;
+	color: red;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 460px;
+}
+
+.testClassUL {
+	border: 2px groove lightgreen;
+	color: darkslategrey;
+	font-size: larger;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 460px;
+}
+
+img[src] {
+	background-color: yellow;
+}
+
+p:hover {
+	color: blue;
+} */
+
