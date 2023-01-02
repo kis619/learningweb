@@ -1,0 +1,38 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: lightskyblue;
+}
+
+h1 {
+	text-align: center;
+}
+
+#checklist {
+	padding-left: 25%;
+}
+
+li input {
+    display: none;
+}
+
+li.edit span {
+    display: none;
+}
+
+li.edit input {
+    display: initial;
+}
+
+
+/* testing some stuff */
+.red-text {
+	color: red;
+}
+
+.green-text {
+	color: green;
+}
+
+#answer {
+	display: none;
+}

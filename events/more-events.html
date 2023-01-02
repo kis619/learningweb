@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>More Events</title>
+	<link rel="stylesheet" href="styles/more-events.css">
+</head>
+
+<body>
+	<header>
+		<h1>Javascript Events</h1>
+	</header>
+	<section>
+		<!-- <ul id="checklist">
+			<li>
+				<span>Apples</span>
+				<input value="Apples" />
+			</li>
+			<li>
+				<span>Oranges</span>
+				<input value="Oranges" />
+			</li>
+			<li>
+				<span>Bananas</span>
+				<input value="Bananas" />
+			</li>
+		</ul> -->
+		<ul id="checklist">
+			<li>
+				<span>Apples</span>
+				<input value="Apples" />
+			</li>
+			<li><span>Oranges</span>
+				<input value="Oranges" />
+			</li>
+			<li><span>Bananas</span>
+				<input value="Bananas">
+			</li>
+		</ul>
+		
+	</section>
+	<script src="scripts/more-events.js"> </script>
+
+</body>
+
+
+</html>
+
+
+
+<!-- var checklist = document.getElementById("checklist");
+
+var items = checklist.querySelectorAll("li");
+var inputs = checklist.querySelectorAll("input");
+
+for (var i = 0, j = items.length; i < j; i++){
+	items[i].addEventListener("click", editItem);
+}
+
+function editItem() {
+	this.className = "edit";
+	var input = this.querySelector("input");
+	// var input = this.getElementsByTag("input")[0];
+	input.focus();
+	input.setSelectionRange(0, input.value.length);
+	console.log(input.value.length);
+
+} -->
