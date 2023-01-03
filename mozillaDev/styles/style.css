@@ -41,12 +41,19 @@ img {
 }
 
 
+img.hide {
+	display: none;
+}
+
 p ,li {
 	font-size: 16px;
 	line-height: 2;
 	letter-spacing: 1px;
 }
 
+a {
+	display: block;
+}
 
 /* PLAYING */
 p, h1, img, ul, a {
