@@ -37,7 +37,7 @@ we must give it block-level behavior using display: block;. */
 img {
 	width: 590px;
 	display: block;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 
 

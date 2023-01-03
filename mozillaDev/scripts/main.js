@@ -67,5 +67,6 @@ function setUserName() {
 	}
 }
 
+// localStorage.removeItem("userName");
   
 
