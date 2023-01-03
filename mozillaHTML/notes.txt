@@ -1,2 +1,5 @@
-block-line vs inline elements
-/n /n			
+block-line			vs inline elements
+surrounded bt /n
+
+ Without headings, your page will perform poorly in terms of SEO
+ (Search Engine Optimization).
