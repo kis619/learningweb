@@ -1,0 +1,6 @@
+p {
+	background: url("../images/fallback.jpeg") no-repeat center;
+	background-image: url("../halloween-hand-rebellion-svgrepo-com.svg");
+	background-size: contain;
+	color: lightblue;
+}
