@@ -25,3 +25,8 @@ An image's intrinsic size is its real size, which can be found by inspecting the
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#active_learning_implementing_your_own_responsive_images
 Responsive images 
 ////
+
+////
+Note: You should optimize your JPG and PNG images to make them as small as possible,
+while still looking OK. tinypng.com is a great service for doing this easily.
+////
