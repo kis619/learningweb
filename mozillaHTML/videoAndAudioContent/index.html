@@ -10,7 +10,42 @@
 </head>
 
 <body>
-	
+	<h1>Below is a video that will play in all modern browsers</h1>
+
+	<video
+		controls
+		width="400"
+		height="400"
+		ANNOYING_autoplay
+		ANNOYING_loop
+		muted
+		preload="auto"
+		poster="materials/poster.png"
+		>
+		<!-- Each <source> element also has a type attribute.
+			This is optional, but it is advised that you include it.
+			The type attribute contains the MIME type of the file specified by the <source>,
+			and browsers can use the type to immediately skip videos they don't understand.
+			If type isn't included, browsers will load and try to play each file
+			until they find one that works, which obviously takes time
+			and is an unnecessary use of resources. -->
+		<source src="materials/rabbit320.mp4" type="video/mp4">
+		<source src="materials/rabbit320.webm" type="video/webm">
+		<p>
+			Your browser doesn't support HTML video. Here is a
+			<a href="materials/rabbit320.webm">link to the video</a> instead.
+		</p>
+	</video>
+
+	<audio controls loop autoplay preload="auto" muted>
+		<source src="materials/viper.mp3" type="audio/mp3" />
+		<source src="materials/viper.ogg" type="audio/ogg" />
+		<p>
+			Your browser doesn't support this audio file. Here is a
+			<a href="materials/viper.mp3">link to the audio</a> instead.
+		</p>
+	</audio>
+
 </body>
 
 
