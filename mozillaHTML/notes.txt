@@ -13,3 +13,15 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Oth
  such as <canvas> for JavaScript-generated 2D and 3D graphics,
  and <svg> for embedding vector graphics. We'll look at SVG in the next article of the module.
 ////
+
+////
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+The image's intrinsic width in pixels (480w) — note that this uses the w unit, not px as you might expect.
+An image's intrinsic size is its real size, which can be found by inspecting the image file on your computer
+(for example, on a Mac you can select the image in Finder and press Cmd + I to bring up the info screen).
+////
+
+////
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#active_learning_implementing_your_own_responsive_images
+Responsive images 
+////
