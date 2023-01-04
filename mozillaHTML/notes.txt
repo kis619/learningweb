@@ -3,3 +3,13 @@ surrounded bt /n
 
  Without headings, your page will perform poorly in terms of SEO
  (Search Engine Optimization).
+
+
+////
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies
+ There are many other technologies that involve embedding external content
+ besides the ones we discussed here. We saw some in earlier articles,
+ such as <video>, <audio>, and <img>, but there are others to discover,
+ such as <canvas> for JavaScript-generated 2D and 3D graphics,
+ and <svg> for embedding vector graphics. We'll look at SVG in the next article of the module.
+////
