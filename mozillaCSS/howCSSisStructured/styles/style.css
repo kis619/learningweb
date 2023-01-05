@@ -1,0 +1,67 @@
+/* Create your test CSS here */
+
+body {
+	background-color: rgb(117, 111, 111);
+	color: white;
+}
+
+p {
+	color: red;
+}
+
+h1 {
+	text-decoration: line-through;
+	color: brown;
+	text-shadow: 2cm;
+}
+
+a:visited
+{
+	color: blue;
+}
+
+.year {
+	background-color: yellow;
+}
+
+p.same-paragraph
+{
+	color: lightblue;
+}
+
+li {
+	font-weight: bolder;
+}
+
+li.even {
+	font-weight: normal;
+	color: white;
+}
+
+ol li
+{
+	color: darkgreen;
+}
+
+#first-orchestra {
+	color: white;
+	font-size: larger;
+	text-shadow: 1px 0 20px #FC0;
+}
+
+* p {
+	background-color: darkgray;
+}
+
+.whatever2 {
+	color: blueviolet;
+}
+
+.whatever2 p {
+	color: #FC0;
+}
+
+header, h2 {
+	font-size: larger;
+	font-style: italic;
+}
