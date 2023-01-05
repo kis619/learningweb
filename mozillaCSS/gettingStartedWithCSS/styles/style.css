@@ -1,0 +1,55 @@
+h1 {
+	color: red;
+}
+
+p,
+li {
+color: green;
+}
+
+ul {
+	list-style-type: "\1F44D"
+}
+
+.special {
+	list-style-type: "\1F499";
+	color: orange;
+	font-weight: bold;
+}
+
+li.more-special,
+span.more-special {
+	color: red;
+}
+
+li em {
+	color: rebeccapurple;
+}
+
+h1 + p {
+  font-size: 200%;
+}
+
+
+a:link {
+	color: pink;
+	font-weight: bold;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: purple;
+}
+a:active {
+	color: black;
+	text-decoration: none;
+}
+
+body h1 + p .special {
+  color: yellow;
+  background-color: black;
+  padding: 5px;
+}
