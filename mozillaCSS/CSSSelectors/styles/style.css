@@ -1,0 +1,30 @@
+span {
+    background-color: yellow;
+}
+
+strong, em {
+    color: rebeccapurple;
+}
+
+/* em {
+    color: rebeccapurple;
+} */
+
+/* p[title] {
+	background-color: palegoldenrod;
+} */
+
+a[href=""] {
+	text-decoration: underline;
+	/* text-decoration: wavy; */
+	text-decoration-color: red;
+	text-decoration-thickness: 2px;
+}
+
+article#second > p::first-line{
+	color: darkgreen;
+}
+
+h1::first-letter{
+	background-color: lime;
+}
