@@ -1,0 +1,66 @@
+h1 {
+	/* display: inline; */
+	/* height: 200px; */
+	border: 4mm ridge gold;
+}
+
+span.hello {
+	/* display: block; */
+	height: 50px;
+	width: 70px;
+	border: 2px solid red;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+
+span#flexy{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid lime;
+}
+
+/* p, 
+ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+}
+
+.block,
+li {
+  border: 2px solid blue;
+  padding: .5em;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+}      
+   */
+
+p, 
+ul {
+	border: 2px solid rebeccapurple;
+}
+
+span,
+li {
+	border: 2px solid blue;
+}
+
+ul {
+	/* display: inline-flex; */
+	display: block;
+	list-style: none;
+	padding: 0;
+} 
+
+.inline {
+	display: inline;
+}
+	
