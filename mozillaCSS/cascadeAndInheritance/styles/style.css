@@ -1,0 +1,93 @@
+/* ul {
+	color: purple;
+} */
+
+.main {
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+.special {
+    color: black;
+    font-weight: bold;
+}
+
+section.flexy {
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+@media (max-width: 600px) {
+    section.flexy {
+        flex-direction: column;
+    }
+}
+
+h2 {
+    color: black;
+    font-weight: bold;
+}
+body {
+    color: green;
+}
+          
+.my-class-1 a {
+    color: white;
+}
+          
+.my-class-2 a {
+    color: white;
+}
+          
+.my-class-3 a {
+    color: white;
+}
+
+html {
+    background-color: aqua;
+}
+
+a {
+    color: red;
+}
+
+blockquote {
+    background-color: red;
+    border: 2px solid green;
+}
+        
+.fix-this {
+    all: unset;
+    color: palevioletred;
+}
+
+/* li {
+    all: unset;
+} */
+
+
+#winning {
+    background-color: red;
+    border: 1px solid black;
+}
+
+.better {
+    background-color: gray;
+    border: none !important;
+}
+    
+p {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin: 2%;
+}           
+

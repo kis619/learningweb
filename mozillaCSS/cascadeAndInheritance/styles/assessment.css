@@ -1,0 +1,50 @@
+main {
+	display: flex;
+	flex-direction: row;
+}
+
+/* 1 1 3 */
+#first #outer div ul .nav a {
+	background-color: powderblue;
+	padding: 5px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+/* 0 0 4 */
+#first div div li a {
+	color: rebeccapurple;
+}
+
+/* 3 1 1 */
+#first #outer.container div ul li a {
+	background-color: inherit;
+}
+
+section {
+	margin-left: 20px;
+
+	padding-right: 10px;
+	border: 1px solid black;
+}
+
+/* second task */
+@layer yellow, purple, green;
+
+@layer yellow {
+#outer div ul .nav a {
+	padding: 5px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+}
+@layer purple {
+div div li a {
+	color: rebeccapurple;
+}
+}
+@layer purple green {
+a {
+	color: lightgreen;
+}
+}       
