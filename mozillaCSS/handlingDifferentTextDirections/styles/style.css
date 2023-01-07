@@ -1,0 +1,35 @@
+/* html{
+	writing-mode: vertical-rl;
+} */
+
+body {
+	font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+* {
+	box-sizing: border-box;
+}
+div {
+	border: 1px solid black;
+	margin: .5em;
+	padding: 10px;
+}
+
+.vertical {
+	writing-mode: vertical-rl;
+}
+
+.horizontal {
+	writing-mode: horizontal-tb;
+}
+
+.wrapper {
+	display: flex;
+	/* flex-direction: row; */
+}
+
+.box {
+	inline-size: 180px;
+	block-size: 400px;
+	margin-block-end: 80px;
+	padding-inline-start: 20px;
+}
