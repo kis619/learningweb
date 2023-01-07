@@ -1,0 +1,36 @@
+html {
+	font-size: 26px;
+}
+
+.percent li {
+	font-size: 80;
+}
+
+.ems li {
+	font-size: 1.3em;
+}
+
+.rems li {
+	font-size: 1.3rem;
+}
+
+.px {
+	inline-size: 200px;
+}
+
+.percent {
+	inline-size: 40%;
+}
+.box {
+	background-color: lightblue;
+	border: 5px solid darkblue;
+	margin-block-end: 20px;
+	margin-block-start: 20px;
+}
+
+.wrapper {
+	border: 5px solid purple;
+	inline-size: 450px;
+
+}
+
