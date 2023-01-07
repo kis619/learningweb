@@ -7,4 +7,5 @@ cd ./$directoryName;
 mkdir styles scripts images
 touch styles/style.css
 touch scripts/script.js
-touch index.html
+
+cp ../prototype_index.html index.html
