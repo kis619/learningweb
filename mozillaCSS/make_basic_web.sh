@@ -8,5 +8,5 @@ mkdir styles scripts images
 touch styles/style.css
 touch scripts/script.js
 
-cp ../prototype_index.html index.html
+cp ../../og/prototype_index.html index.html
 cp ../../og/images/* images/
