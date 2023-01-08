@@ -1,18 +1,89 @@
+input[type="text"],
+input[type="email"] {
+	border: 2px solid #000;
+	margin: 0 0 1em 0;
+	padding: 10px;
+	width: 100%;
+}
+form > div {
+	display: flex;
+}
+
+form {
+	background-color: lightgreen;
+	padding: 1%;
+}
+label {
+	width: 10em;
+}
+
+.button {
+	justify-content: center;
+}
+
+input[type="submit"] {
+	background-color: #999;
+	border: 3px solid #333;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px 2em;
+
+}
+
+input[type="submit"]:hover {
+	background-color: #333;
+}
+
+
+
+#wrapper {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 200px 200px;
+	margin-top: 50px;
+}
+
+#wrapper > div {
+	background-color: rebeccapurple;
+	border-radius: .5em;
+}
+
+#wrapper img {
+	/* height: 100%;
+	width: 100%; */
+}
+
 .wrapper {
+	align-items: flex-start;
 	border: 1cm solid red;
 	display: flex;
-	align-items: flex-start;
+	margin-top: 30px;
 }
 
 .wrapper > * {
 	margin: 20px;
 }
 .box {
+	block-size: 400px;
 	border: 2mm solid black;
-	inline-size: 200px;
-	block-size: 200px;
+	inline-size: 300px;
 }
 
-img {
-	max-width: 100%;
+.wrapper img {
+	block-size: 100%;
+	inline-size: 100%;
+}
+
+.cover.fill {
+	object-fit: fill;
+}
+
+.cover {
+	object-fit: cover;
+}
+
+.contain {
+	object-fit: contain;
 }

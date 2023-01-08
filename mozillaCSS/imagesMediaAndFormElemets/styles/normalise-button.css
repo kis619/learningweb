@@ -1,0 +1,14 @@
+button,
+input,
+select,
+textarea {
+	box-sizing: border-box; 
+	font-family: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+textarea {
+	overflow: auto;
+}
