@@ -1,0 +1,122 @@
+/* GENERAL */
+/* 
+body {
+	border: 3px solid green;
+	font-family: sans-serif;
+	font-size: 1.2rem;
+	margin: 0 auto;
+	width: 300px;
+}
+
+p {
+	line-height: 1.4;
+} */
+
+
+/* LINKS */
+/* a {
+	outline: none;
+	text-decoration: none;
+	padding: 2px 1px 0;
+} */
+
+/* LoVe Fears HAte. */
+/* a:link {
+	color: yellow;
+}
+
+a:visited {
+	color: #437a16;
+}
+
+a:focus {
+	background: #bae498;
+	border-bottom: 1px solid;
+}
+
+a:hover {
+	border-bottom: 1px solid;
+	background: #cdfeaa;
+}
+
+a:active {
+	background: #265301;
+	color: #cdfeaa;
+} */
+/* body {
+  width: 300px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+p {
+  line-height: 1.4;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:focus,
+a:hover {
+  border-bottom: 1px solid;
+}
+
+a:active {
+  color: red;
+}
+
+a[href^="http"] {
+  background: url("../images/external-link.png") no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+} */
+
+
+/* NAVIGATION EXAMPLE */
+
+body,
+html {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.container {
+	display: flex;
+	gap: 0.625%;
+}
+
+a {
+	color: black;
+	flex: 1;
+	line-height: 3;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+;}
+
+a:link,
+a:visited,
+a:focus {
+	background: palegoldenrod;
+	color: black;
+}
+
+a:hover {
+	background: orange;
+}
+
+a:active {
+	background-color: darkred;
+	color: white;
+}
