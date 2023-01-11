@@ -1,0 +1,119 @@
+/* TASK FOUR || */
+body {
+  background-color: #fff;
+  color: #333;
+  font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+ul {
+  width: 450px;
+  list-style:none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  background-color: #4D7298;
+  border: 2px solid #77A6B6;
+  border-radius: .5em;
+  color: #fff;
+  padding: .5em;
+  margin: .5em;
+}
+
+/* TASK THREE || */
+body {
+	background-color: #fff;
+	color: #333;
+	font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+	padding: 1em;
+	margin: 0;
+}
+
+.third .parent {
+  border: 2px solid #77A6B6;
+  border-radius: .5em;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.third .child {
+  background-color: #4D7298; 
+  color: #fff;
+  padding: .5em;
+  width: 150px;
+  /* align-self: center; */
+  margin: auto;
+}
+
+
+/* TASK TWO || */
+body {
+	background-color: #fff;
+	color: #333;
+	font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+	padding: 1em;
+	margin: 0;
+}
+
+.second ul {
+  max-width: 1700px;
+  list-style:none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.second li {
+  background-color: #4D7298;
+  border: 2px solid #77A6B6;
+  border-radius: .5em;
+  color: #fff;
+  padding: .5em;
+  flex: 1;
+}
+
+.second li:first-of-type {
+	flex: 2;
+}
+
+
+/* TASK ONE || */
+body {
+	background-color: #fff;
+	color: #333;
+	font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+	padding: 1em;
+	margin: 0;
+}
+
+.first nav ul {
+  max-width: 700px;
+  list-style:none;
+  padding: 0;
+  margin: 0;
+}
+
+.first nav a:link,
+.first nav a:visited {
+  background-color: #4D7298;
+  border: 2px solid #77A6B6;
+  border-radius: .5em;
+  color: #fff;
+  padding: .5em;
+  /* display: inline-block; */
+  text-decoration: none;
+}
+
+.first ul {
+	display: flex;
+	justify-content: space-between;
+}
+
