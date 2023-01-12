@@ -1,0 +1,31 @@
+body {
+	inline-size: 90%;
+	max-inline-size: 900px;
+	margin: 0 auto;
+	font: 0.9em/1.2 Arial, Helvetica, sans-serif;
+	border: 2px solid blue;
+}
+
+.box {
+	background-color: rgb(207, 232, 220);
+	border: 2px solid darkolivegreen;
+	border-radius: 5px;
+	inline-size: 150px;
+	height: 100px;
+	padding-left: 1em;
+	padding-top: 1em;
+
+	float: left;
+	margin: 15px;
+}
+
+.special {
+	background-color: rgb(79, 185, 227);
+	/* padding: 10px; */
+	color: #fff;
+	/* border: 3px solid red; */
+}
+
+.cleared {
+	clear: left;
+}

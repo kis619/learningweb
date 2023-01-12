@@ -9,4 +9,4 @@ touch styles/style.css
 touch scripts/script.js
 
 cp ../../../og/prototype_index.html index.html
-cp ../../../og/images/* images/
+# cp ../../../og/images/* images/
