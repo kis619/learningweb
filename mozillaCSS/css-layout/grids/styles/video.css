@@ -1,0 +1,40 @@
+
+body{
+	background-color: gray;
+	margin: 1em;
+	display: grid;
+	gap: 2rem;
+	grid-template-rows: auto auto 1fr auto;
+	min-height: 100vh;
+}
+
+header::first-line,
+footer {
+	font-size: 2rem;
+}
+
+header,
+main,
+footer,
+h2,
+ul {
+	background-color: white;
+	/* border-bottom: 1px solid red; */
+	border: 2px solid red;
+	margin: 0;
+}
+
+@media (min-width: 60em) {
+	body {
+		grid-template-areas:
+		'banner banner'
+		'nav main'
+		'footer footer'
+		;
+	}
+}
+
+header {grid-area: banner;}
+nav {grid-area: nav;}
+main {grid-area: main;}
+footer {grid-area: footer;}
