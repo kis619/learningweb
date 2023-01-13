@@ -1,0 +1,49 @@
+body {
+  font: 1.2em Helvetica, Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #eee;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 2em auto;
+}
+
+.col1,
+.col2 {
+  background-color: orange;
+}
+
+
+@media screen and (min-width: 600px) {
+  .wrapper {
+	display: flex;
+  }
+  
+  .col1 {
+	flex: 1;
+	margin-right: 5%;
+  }
+
+  .col2 {
+	flex: 2;
+  }
+}
+
+
+html {
+	font-size: 1em;
+  }
+  
+h1 {
+  font-size: calc(1.5rem + 3vw);
+}
+
+  
+  /* @media (min-width: 1200px) {
+	h1 {
+	  font-size: 4rem;
+	}
+  }
+   */
