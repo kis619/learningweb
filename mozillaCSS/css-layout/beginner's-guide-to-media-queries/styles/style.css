@@ -1,0 +1,45 @@
+@media screen and (width: 600px){
+	p {
+		background-color: pink;
+	}
+}
+
+@media screen and (max-width: 599px) {
+	p {
+		background-color: blueviolet;
+	}
+}
+
+/* @media screen and (max-width: 600px) {
+	p {
+	  color: blue;
+	}
+  }
+   */
+
+@media screen and (min-width: 620px)
+{
+	p {
+		background-color: yellow;
+	}
+}
+
+@media screen and (orientation: landscape)
+{
+	body {
+		color: darkcyan;
+	}
+}
+
+@media  (hover: hover) {
+	
+	body {
+		background-color: aquamarine;
+	}
+}
+
+@media (pointer: coarse) {
+	div {
+		background-color: brown;
+	}
+}
