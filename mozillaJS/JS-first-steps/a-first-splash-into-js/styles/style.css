@@ -1,0 +1,22 @@
+html {
+	background-color: gray;
+	font-family: sans-serif;
+}
+
+body {
+	inline-size: 50%;
+	max-inline-size: 800px;
+	min-inline-size: 400px;
+	margin: 60px auto;
+	border: 2px solid black;
+}
+
+.form input[type="number"] {
+	inline-size: 200px;
+}
+
+.lastResult {
+	color: white;
+	padding: 3px;
+}
+
