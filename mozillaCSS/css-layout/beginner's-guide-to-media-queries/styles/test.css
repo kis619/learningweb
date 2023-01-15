@@ -70,3 +70,40 @@ main {
   padding: 0.5em 1em;
   color: #fff;
 }
+
+@media screen and (min-width: 60rem) {
+	body {
+		/* background-color: green; */
+
+		/* display: grid;
+		grid-template-rows: 1fr 9fr;
+		gap: 1em */
+	}
+
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-block-end: 1em;
+	}
+
+	nav ul{
+		display: flex;
+	}
+
+	main {
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		gap: 1em;
+	}
+
+	article ul {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		gap: 1em;
+	}
+
+	header a {
+		border: none;
+	}
+}
