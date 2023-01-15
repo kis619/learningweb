@@ -1,0 +1,25 @@
+html {
+	font-family: sans-serif;
+}
+body {
+	width: 50%;
+	max-width: 800px;
+	min-width: 480px;
+	margin: 0 auto;
+}
+.lastResult {
+	color: white;
+	padding: 3px;
+}
+
+span {
+	color: blue;
+	/* border: 1px solid red; */
+	display: inline-block;
+	padding-inline-end: 20px;
+	background-image: url("../external-link.png");
+	background-size: 16px;
+	background-repeat: no-repeat;
+	background-position-x: right;
+	text-decoration: underline;
+}
