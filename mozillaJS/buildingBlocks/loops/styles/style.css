@@ -1,0 +1,12 @@
+/* Random-circles */
+
+.canvas-button button {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.canvas-button {
+	position: relative;
+}
+
