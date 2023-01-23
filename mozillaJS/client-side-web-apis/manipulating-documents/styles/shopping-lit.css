@@ -1,0 +1,20 @@
+.add-item {
+	display: flex;
+	inline-size: 100%;
+	gap: 1em;
+}
+
+html {
+	min-inline-size: 313px;
+}
+
+li button {
+	margin-inline-start: 2em;
+	font-size: .5em;
+}
+
+li {
+	font-size: 1.2em;
+	margin: 1em;
+}
+
