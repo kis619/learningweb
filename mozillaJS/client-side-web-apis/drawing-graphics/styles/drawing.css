@@ -1,0 +1,54 @@
+/* body {
+	margin: 0;
+	overflow: hidden;
+	background: #ccc;
+}
+
+.toolbar {
+	display: flex;
+	flex-direction: column;
+	inline-size: 30%;
+	padding: .5rem;
+	background: #ccc;
+}
+
+.toolbar > * {
+	width: 100%;
+}
+
+span {
+	position: relative;
+	left: 1.9rem;
+}
+
+#pointer-size {
+	display: flex;
+} */
+
+body {
+	margin: 0;
+	overflow: hidden;
+	background: #ccc;
+  }
+  
+  .toolbar {
+	width: 150px;
+	height: 75px;
+	background: #ccc;
+	padding: 10px;
+  }
+  
+  input[type="color"], button {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+  }
+  
+  input[type="range"] {
+	width: 70%;
+  }
+  
+  span {
+   position: relative;
+   bottom: 5px;
+  }
