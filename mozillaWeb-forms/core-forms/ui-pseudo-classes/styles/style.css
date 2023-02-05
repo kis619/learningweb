@@ -1,0 +1,123 @@
+body {
+        font-family: 'Josefin Sans', sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+}
+
+#form1 fieldset {
+        padding: 10px 30px 0;
+      }
+
+#form1 legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+#form1 fieldset > div {
+        margin-bottom: 20px;
+		display: flex;
+		flex-flow: row wrap;
+      }
+
+#form1 button,
+#form1 label,
+#form1 input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+#form1  input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+#form1 input:hover,
+#form1 input:focus {
+        background-color: #eee;
+      }
+
+#form1 input:required {
+        border: 1px solid black;
+      }
+
+#form1 input:optional {
+        border: 1px solid silver;
+      }
+
+#form1 button {
+        width: 60%;
+        margin: 0 auto;
+      }
+
+#form1 input + span {
+	position: relative;
+}
+
+#form1 input:required + span::after {
+	background-color: black;
+	content: "required";
+	color: white;
+	font-size: .7rem;
+	padding: 5px 10px;
+	position: absolute;
+	top: -26px;
+	left: -70px;
+}
+
+#form1 input:invalid {
+	background-color: rosybrown;
+}
+
+#form1 input:valid {
+	background-color: lightgreen;
+}
+
+
+html {
+	background-color: darkgray;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#form2 input[type="radio"] {
+	appearance: none;
+}
+
+#form2 input[type="radio"] {
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	border: 2px solid gray;
+	/* Adjusts the position of the checkboxes on the text baseline */
+	vertical-align: -2px;
+	outline: none;
+}
+
+#form2 input[type="radio"]::before {
+	display: block;
+	content: " ";
+	width: 10px;
+	height: 10px;
+	border-radius: 6px;
+	background-color: red;
+	font-size: 1.2em;
+	transform: translate(3px, 3px) scale(0);
+	transform-origin: center;
+	transition: all 0.3s ease-in;
+}
+
+#form2 input[type="radio"]:checked::before {
+	transform: translate(3px, 3px) scale(1);
+	transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+}
