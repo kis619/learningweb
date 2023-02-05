@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<script src="scripts/script.js" defer></script>
+</head>
+<body>
+	<textarea cols="30" rows="8" wrap="off">Sample text</textarea>
+	<br>
+	<select id="simple" name="simple">
+		<option>Banana</option>
+		<option>Cherry</option>
+		<option>Lemon</option>
+	</select>
+	<br>
+	<select id="groups" name="groups">
+		<optgroup label="fruits">
+			<option>Banana</option>
+			<option>Cherry</option>
+			<option>Lemon</option>
+		</optgroup>
+		<optgroup label="vegetables">
+			<option>Carrot</option>
+			<option selected>Eggplant</option>
+			<option>Potato</option>
+		</optgroup>
+	</select>
+	<br><br>
+	<select id="multi" name="multi" multiple size="7">
+		<optgroup label="fruits">
+		  <option>Banana</option>
+		  <option selected>Cherry</option>
+		  <option>Lemon</option>
+		</optgroup>
+		<optgroup label="vegetables">
+		  <option>Carrot</option>
+		  <option>Eggplant</option>
+		  <option>Potato</option>
+		</optgroup>
+	  </select>
+	<br>
+	
+	<div>
+		<progress id="test" max="10" value="1"></progress>
+		<div id="progress-status">0</div>
+	</div>
+	
+
+
+	<meter min="0" max="100" value="50" low="33" high="66" optimum="50">75</meter>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<script src="scripts/script.js" defer></script>
+</head>
+<body>
+	<section id="form1">
+	<form>
+		<fieldset>
+		  <legend>Feedback form</legend>
+		  <p>Required fields are labelled with "required".</p>
+		  <div>
+			<label for="fname">First name: </label>
+			<input id="fname" name="fname" type="text" required />
+			<span></span>
+		</div>
+		<div>
+			<label for="lname">Last name: </label>
+			<input id="lname" name="lname" type="text" required />
+			<span></span>
+		  </div>
+		  <div>
+			<label for="email">
+			  Email address (include if you want a response):
+			</label>
+			<input id="email" name="email" type="email" />
+		  </div>
+		  <div><button>Submit</button></div>
+		</fieldset>
+	</form>
+	</section>
+
+	<section id="form2">
+		<form>
+			<fieldset>
+				<legend>Radio Buttons</legend>
+
+				<ul>
+					<li>
+						<label for="1"></label>
+						<input type="radio" id="1" name="test">Option 1
+					</li>
+					<li>
+						<label for="2"></label>
+						<input type="radio" id="2" name="test">Option 2
+					</li>
+					<li>
+						<label for="3"></label>
+						<input type="radio" id="3" name="test">Option 3
+					</li>
+				</ul>
+			</fieldset>
+		</form>
+	</section>
+
+</body>
+</html>
