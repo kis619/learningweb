@@ -1,0 +1,44 @@
+body {
+	margin: 0 auto;
+	min-inline-size: 500px;
+}
+
+/* HEADER */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 3px solid blue;
+	padding: 0 1rem;
+	
+}
+
+header ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 4rem;
+	border: 3px solid blue;
+}
+
+/* MAIN */
+main {
+	display: flex;
+	justify-content: space-between;
+	border: 3px solid darkgreen;
+}
+
+canvas {
+	background-color: lightgray;
+	inline-size: 800px;
+	min-inline-size: 500px;
+}
+
+/* FOOTER */
+footer {
+	/* inline-size: 100%; */
+	border: 3px solid rebeccapurple;
+	text-align: center; 
+}
+
