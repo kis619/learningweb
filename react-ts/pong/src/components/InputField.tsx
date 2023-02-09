@@ -7,18 +7,16 @@ interface Props {
 	handleAddTask: (e: React.FormEvent) => void;
 }
 
-const FieldInput = ({task, setTask, handleAddTask}: Props) => {
+const FieldInput: React.FC<Props> = ({task, setTask, handleAddTask}: Props) => {
 	function handleChange (e: React.ChangeEvent<HTMLInputElement>) {
 		setTask(e.target.value);
 	}
 	
-	const inputRef = useRef<HTMLFormElement>(null);
 	return (
 		<form
 			className='input'
 			onSubmit={(e) => {
 				handleAddTask(e);
-				inputRef.current?.focus();
 			}}
 		>
 			<input	type="input"
