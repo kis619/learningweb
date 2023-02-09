@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import { Task } from "../model";
 import { RiEdit2Fill, RiDeleteBin3Fill, RiCheckFill } from "react-icons/ri";
 import "./styles.css";
@@ -21,9 +21,27 @@ const SingleTask = ({task, tasks, setTasks}: Props) => {
 	const handleDelete = (id: number) => {
 		setTasks(tasks.filter((t)=> t.id !== id))
 	}
+
+	const [edit, setEdit] = useState<boolean>(false);
+	const [editTask, setEditTask] = useState<string>(task.task);
+
+	const handleEdit = (e: React.FormEvent<HTMLFormElement>, id: number) => {
+		e.preventDefault();
+		setTasks(tasks.map((task) => (task.id === id?{...task, task:editTask}:task)));
+
+		setEdit(false);
+
+	}
+	const inputRef = useRef<HTMLInputElement>(null);
 	return (
-		<form className="todos__single">
+		<form className="todos__single" onSubmit={(e) => handleEdit(e, task.id)}>
 			{
+				edit?
+				(<input value={editTask}
+						onChange={(e) => setEditTask(e.target.value)}
+						className="todos__single--text"
+					/>)
+				:
 				task.isDone?
 				(<s className="todos__single--text"> {task.task}</s>)
 				:
@@ -31,7 +49,9 @@ const SingleTask = ({task, tasks, setTasks}: Props) => {
 			}
 
 			<div>
-				<span className="icon">
+				<span
+					className="icon" onClick={() => setEdit(!edit)}
+				>
 					<RiEdit2Fill />
 				</span>
 				<span className="icon" onClick={() => handleDelete(task.id)}>

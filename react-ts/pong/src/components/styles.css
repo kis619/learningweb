@@ -73,6 +73,11 @@
 	font-size: 1.3rem;
 	cursor: pointer;
 }
+
+.todos__single--text:focus {
+	outline: none;
+}
+
 @media (max-width: 400px) {
 	.todos__single {
 		width: 100%;
